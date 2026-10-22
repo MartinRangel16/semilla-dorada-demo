@@ -1,0 +1,14 @@
+SEMILLA DORADA — DEMO PWA
+
+IMPORTANTE: es una demostración educativa con datos ficticios. No tiene servidor, base de datos central, usuarios reales ni sincronización. No introducir datos reales.
+
+PROBAR EN PC:
+1. Descomprime el ZIP y abre la carpeta en Visual Studio Code.
+2. Instala la extensión Live Server si no la tienes.
+3. Haz clic derecho en index.html > Open with Live Server.
+4. Registra una venta ficticia y prueba Exportar CSV.
+
+PROBAR EN ANDROID:
+La forma más sencilla es publicar la carpeta en un alojamiento de pruebas con HTTPS. Abre la URL en Chrome Android > menú ⋮ > Instalar aplicación o Agregar a pantalla de inicio. Carga una vez con internet y luego activa modo avión para probar el almacenamiento local.
+
+PWA requiere HTTPS o localhost. Para abrirla desde otro dispositivo no uses 127.0.0.1: esa dirección apunta al propio dispositivo. Esta demo NO sincroniza operaciones con un servidor; solo guarda datos en el navegador.
