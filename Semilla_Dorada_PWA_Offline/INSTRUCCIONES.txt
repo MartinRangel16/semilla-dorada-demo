@@ -1,0 +1,37 @@
+SEMILLA DORADA — DEMO PWA SIN CONEXIÓN
+========================================
+
+QUÉ HACE
+- Es un prototipo educativo con ventas ficticias.
+- Guarda ventas en el almacenamiento local del navegador del mismo dispositivo.
+- Incluye archivos para que la página pueda abrir sin conexión después de instalarse y cargar sus archivos una vez.
+- No tiene servidor, usuarios, base de datos central ni sincronización.
+- No usar para ventas reales ni capturar datos personales.
+
+IMPORTANTE
+Para instalar una PWA y utilizar Service Worker, el sitio debe servirse por HTTPS (o localhost). La dirección local de Live Server por Wi-Fi no proporciona un contexto seguro, así que no sirve para instalarla correctamente en el celular.
+
+CÓMO PUBLICAR ESTA DEMO EN HTTPS
+Una opción sencilla es usar un servicio de alojamiento estático con HTTPS, por ejemplo Netlify:
+1. En una computadora, descomprime este ZIP en una carpeta.
+2. Abre el sitio oficial de Netlify y entra a tu cuenta o crea una.
+3. Usa su función de despliegue manual (normalmente llamada Netlify Drop o deploy manual).
+4. Sube la carpeta descomprimida que contiene index.html, app.js, styles.css, sw.js, manifest.webmanifest e icon.svg. No subas solo index.html.
+5. Espera a que el servicio te proporcione una URL HTTPS.
+6. Abre esa URL en Chrome del celular. Mantén la página abierta unos segundos con conexión para que se almacenen los archivos del modo offline.
+7. En el menú de Chrome, elige “Instalar aplicación” o “Añadir a pantalla de inicio”, según la opción que aparezca.
+8. Abre la aplicación desde el icono mientras aún tienes conexión al menos una vez.
+9. Activa modo avión y vuelve a abrirla desde el icono. Prueba registrar una venta ficticia.
+10. Cierra y vuelve a abrir la aplicación en modo avión; verifica que la venta siga en la lista.
+
+SI NO ABRE SIN CONEXIÓN
+- Desactiva modo avión, abre la aplicación con internet y espera unos segundos.
+- Cierra la aplicación y vuelve a probar.
+- Confirma que la instalaste desde la URL HTTPS y que abriste el icono instalado, no una pestaña antigua.
+- Si publicas una versión nueva, puede ser necesario abrirla con conexión para actualizar los archivos almacenados.
+
+LÍMITES
+- Los datos solo existen en ese navegador/dispositivo. Borrar datos del sitio o desinstalar puede eliminarlos.
+- No hay copia de seguridad automática ni envío al servidor.
+- El cálculo del 5% es ilustrativo.
+- La demo no valida inventario, crédito, permisos, comisiones ni reglas reales del negocio.
